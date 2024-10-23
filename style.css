@@ -1,0 +1,56 @@
+/* Stile per la tabella */
+table {
+    width: 50%; /* Larg metà pagina */
+    border: 1px solid #263238; /* Bordo di 1px di colore #263238 */
+    margin: 20px 0; /* Margine per staccare il testo dalla tabella */
+    border-collapse: collapse; /* Unire bordi della tabella */
+}
+
+/* Titolo della tabella */
+caption {
+    color: #263238;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px; /* Spazio sotto il titolo */
+}
+
+/* Stile per l'header della tabella */
+thead th {
+    background-color: #455a64;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid #263238;
+}
+
+/* Righe con colore di sfondo alternato */
+tbody tr:nth-child(odd) {
+    background-color: #eceff1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b0bec5;
+}
+
+/* Stile per l'ultima riga della tabella */
+tfoot tr:nth-child(2) {
+    background-color: #78909c;
+    font-weight: 800;
+}
+
+/* Stile per la colonna delle entrate */
+td:nth-child(2){
+    color: #003300;
+}
+
+/* Stile per la colonna delle uscite */
+td:nth-child(3) {
+    color: #7f0000;
+}
+
+/* Valori numerici allineati a destra */
+td {
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #263238;
+}
